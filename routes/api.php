@@ -14,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/tank-history', 'App\Http\Controllers\TankController@index');
 Route::get('/tank-history-datatable', 'App\Http\Controllers\TankController@datatable');

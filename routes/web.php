@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('tank-history', function() {
     return view('tank_history');
 });
+
+Route::get('tank-graph', function() {
+    return view('tank_graph');
+});
